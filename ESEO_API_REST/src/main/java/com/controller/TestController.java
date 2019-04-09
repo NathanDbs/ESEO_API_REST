@@ -82,6 +82,7 @@ public class TestController {
 		ville.setNomCommune(nomCommune);
 		boolean result=villes.creationVille(ville);
 		return result;
+		
 	}
 	
 	@RequestMapping(value="/put", method=RequestMethod.PUT)
